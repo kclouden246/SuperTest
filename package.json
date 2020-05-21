@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,14 @@
   },
   "homepage": "https://github.com/kclouden246/SuperTest#readme",
   "dependencies": {
+    "babel-install": "^2.1.0",
     "express": "^4.17.1",
+    "express-async-await": "^1.1.0",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^2.0.4",
     "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1"
   }
 }
